@@ -1,0 +1,12 @@
+# Ignore compiled files
+*.o
+*.out
+*.a
+*.so
+
+# Ignore ASN.1 compiler-generated files
+*.c
+*.h
+
+# Ignore build directories
+/build/

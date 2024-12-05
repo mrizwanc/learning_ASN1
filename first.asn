@@ -1,0 +1,14 @@
+FirstASN DEFINITIONS ::= BEGIN
+
+MyInteger ::= INTEGER (0..100)
+
+MyString ::= UTF8String (SIZE(1..50))
+
+Person ::= SEQUENCE {
+    id      INTEGER,
+    name    UTF8String,
+    age     INTEGER
+}
+
+
+END
