@@ -1,8 +1,8 @@
 FirstASN DEFINITIONS ::= BEGIN
 
-MyInteger ::= INTEGER (0..100)
+MyInteger ::= INTEGER
 
-MyString ::= UTF8String (SIZE(1..50))
+MyString ::= UTF8String
 
 Person ::= SEQUENCE {
     id      INTEGER,
