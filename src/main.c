@@ -43,7 +43,7 @@ void encode_object(asn_TYPE_descriptor_t *type_descriptor, const void *object) {
 }
 
 int main() {
-    MyInteger_t myInt = 42; // Assign a value within the range (0..100)
+    MyInteger_t myInt = 42; 
     printf("Assigned MyInteger: %ld\n", myInt);
 
     // Encode MyInteger
